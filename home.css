@@ -1,0 +1,1324 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+/*Navigation section starts here  */
+
+
+nav{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  color: #354463;
+}
+
+.logo{
+  padding-left: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #354463;
+  width: 160px;
+  height: 63px;
+  font: normal normal bold 22px/28px Helvetica;
+}
+
+.nav-items{
+  padding-top: 2.5em;
+  text-align: left;
+}
+
+.button-read-more{
+  background-color: #C1F7D5;
+  padding: 0.5em 1em;
+  border-radius: 3em;
+  font-size: 1.2em;
+}
+
+.nav-items a {
+  text-decoration: none;
+  padding-left: 129px;
+  font: normal normal 300 16px/24px Helvetica;
+  color: #354463;
+}
+
+.donate button a{
+  text-decoration: none;
+  font: normal normal bold 18px/22px Helvetica;
+}
+.donate button{
+  text-align: center;
+  background:#C1F7D5;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  box-shadow: none;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
+}
+/* Navigation section ends here */
+
+/*Climate change section starts here */
+
+.climate-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 850px;
+  background-image: url('./images_home/annie-spratt-135307-unsplash.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  font-family: 'Rambla', sans-serif;
+  color: #354463;
+}
+.climate-container{
+  display: grid;
+  padding: 100px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.climate-section .climate-container .climate-quote {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+  align-self: center;
+  width: 544px;
+  height: 416px;
+}
+
+.climate-quote-1{
+  font: normal normal bold 44px/56px Helvetica;
+  width: 416px;
+  height: 221px;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 60px;
+  top: 100px;
+}
+.climate-quote a{
+  position: relative;
+  width: 500px;
+  height: 16px;
+  padding-top: 20px;
+  padding-left: 60px;
+  text-align: left;
+  font: normal normal 300 16px/24px Helvetica;
+}
+
+
+
+.climate-issue{
+  position: relative;
+  background-color: #354463;
+  color: white;
+  padding: 0.5em 1em;
+  bottom: 335px;
+  width: 100px;
+  left: 60px;
+}
+
+.climate-tag{
+  font-family: 'Helvetica';
+  line-height: 1em;
+  width: 296px;
+  height: 224px;
+  position: relative;
+  font-size: 80px;
+  padding-left: 1em;
+  color: white;*/
+}
+/*climate change ends here */
+
+/* Take action starts here */
+
+.take-action{
+  width: 100%;
+  height: 240px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #C1F7D5;
+  color: #354463;
+}
+
+.take-action-item{
+  padding: 79px 0 78px 90px;
+  width: 230px;
+  height: 89px;
+  text-align: left;
+  font: normal normal 300 16px/24px Helvetica;
+}
+
+.take-action-item h3 {
+  font: normal normal bold 28px/36px Helvetica;
+}
+
+.take-action-tag {
+  width: 160px;
+  height: 40px;
+  background: #354463 0% 0% no-repeat padding-box;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+  bottom: 270px;
+  left: 842px;
+}
+/*take action ends here */
+
+
+/*Mission  starts here */
+
+
+.mission{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding:6em;
+  grid-row-gap: 6em;
+  background-color: #354463;
+}
+
+.mission .what-we-do{
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mission-heading .mission-text {
+  width: 100%;
+  text-align: left;
+  font: normal normal bold 44px/56px Helvetica;
+  color: #FFFFFF;
+  position: relative;
+  top: -60px;
+}
+
+.mission-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-column-gap: 3em;
+}
+
+.mission-content-item{
+  position: relative;
+  background: white;
+  width: 320px;
+  height: 528px;
+}
+
+.mission-content-item img{
+  width: 320px;
+  height: 224px;
+  position: relative;
+  left: 2em;
+  top: -2em;
+}
+
+.mission-content-text{
+  width: 320px;
+  height: 528px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  color: #354463;
+}
+.mission-content-text h2{
+  width: 288px;
+  height: 70px;
+  text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+  color: #354463;
+  padding-bottom: 10px;
+}
+
+.mission-button{
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
+  position: absolute;
+  top: 80%;
+  right: 40%;
+}
+.mission-button a{
+  text-decoration: none;
+}
+
+/* Mission section ends here */
+
+/* did you know starts here */
+
+.did-you-know{
+  background-image: url('./images_home/did-you-know-background.png');
+  height:1279px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: grid;
+  padding: 6em;
+  grid-column-gap: 4em;
+  grid-template-columns: 1fr 1fr;
+  color: #354463;
+}
+.did-you-know-tag{
+  width: 437px;
+  height: 300px;
+  font-family: "ariel";
+  font-size: 50px;
+  padding-left: 150px;
+  padding-bottom: 10px;
+}
+.did-you-know-tag button{
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
+}
+
+.box{
+  width: 160px;
+  height: 40px;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  color: #FFFFFF;
+  padding-top: 10px;
+  position: relative;
+  left: 60px;
+  bottom: -20px;
+
+}
+
+.did-you-know-content{
+  display: grid;
+  grid-row-gap: 1em;
+}
+.did-you-know-content-text{
+  width: 544px;
+  height: 232px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.did-you-know-content-text h2{
+  text-align: left;
+  font: normal normal bold 44px/56px Helvetica;
+  color: #354463;
+  width: 270px;
+  height: 50px;
+  right: 50%;
+  position: relative;
+  left: 60px;
+  bottom: -20px;
+}
+.did-you-know-content-text p{
+  width: 336px;
+  height: 68px;
+  position: relative;
+  left: 60px;
+  bottom: -20px;
+  padding-top: 10px;
+}
+.did-you-know-social-icon{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1em;
+  position: relative;
+  bottom: 200px;
+}
+
+.did-you-know-social-icon img{
+  width: 32px;
+  height: 32px;
+  justify-self: center;
+  background-color: #C1F7D5;
+  border-radius: 50%;
+}
+
+/* did you know ends here */
+
+/*stories section starts here */
+
+.stories{
+  padding: 6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.stories-image{
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 1/2
+}
+.stories-content{
+  width: 544px;
+  height: 344px;
+  background: #354463 0% 0% no-repeat padding-box;
+  position: relative;
+  left: 39%;
+  top: 20%;
+}
+.stories-content-text{
+  width: 287px;
+  height: 14px;
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+  padding-top: 40px;
+  padding-left: 50px;
+  color: white;
+}
+
+.stories-content-text h2{
+  width: 416px;
+  height: 196px;
+  text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+}
+
+.stories-image img{
+  width: 640px;
+  height: 568px;
+}
+.stories-image-tags{
+  width: 160px;
+  height: 20px;
+  background: #354463 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal normal 14px/17px Helvetica;
+  color: white;
+  padding-top: 10px;
+  position: relative;
+  top: -585px;
+  right: -40px;
+}
+.stories-content button{
+  width: 160px;
+  height: 48px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  font: normal normal bold 18px/22px Helvetica;
+}
+/* Stories end here */
+
+/*Events start from here */
+
+.events{
+  display: grid;
+  padding: 6em;
+  grid-row-gap: 4em;
+  grid-template-columns: 1fr;
+  background-color: #354463;
+}
+
+.events-heading{
+  width: 847px;
+  height: 148px;
+  color: white;
+  text-align: left;
+  font: normal normal normal 72px/76px Flood Std;
+}
+
+.event-tag{
+  width: 160px;
+  height: 30px;
+  text-align: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  padding-top: 10px;
+}
+
+.event-head-item{
+  width: 448px;
+  height: 165px;
+  text-align: left;
+  font: normal normal bold 44px/56px Helvetica;
+  color: white;
+  padding-top: 30px;
+}
+
+.event-content-item{
+  width: 470px;
+  height: 153px;
+  text-align: left;
+  font: normal normal 300 20px/32px Helvetica;
+  color: white;
+}
+.button-read-more-event{
+  position: relative;
+  top: 60px;
+}
+
+
+.events-content{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+body {
+ overflow-x: hidden;
+}
+
+
+.event-latest-news {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-column-gap: 2em;
+}
+.event-head-item-2{
+  width: 352px;
+  height: 165px;
+  text-align: left;
+  font: normal normal bold 44px/56px Helvetica;
+  color: white;
+  padding-top: 30px;
+}
+.event-latest-news-content button{
+  position: relative;
+  top: 60px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 160px;
+  height: 48px;
+}
+/* end of event here */
+
+/* subscribe starts here */
+
+.subscribe{
+  padding: 4em 6em;
+  background-color: #C1F7D5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.subscribe-tag h2{
+  width: 544px;
+  height: 70px;
+  text-align: left;
+  font: normal normal bold 28px/36px Helvetica;
+  color: #354463;
+}
+.subscribe-form input{
+  width: 352px;
+  height: 48px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+}
+.subscribe-form button{
+  width: 160px;
+  height: 48px;
+  background: #354463 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  text-align: center;
+  font: normal normal bold 18px/22px Helvetica;
+  letter-spacing: 0px;
+  color: #C1F7D5;
+  transform: translateX(20px)
+}
+
+/* subscribe ends here */
+
+/* footer sections starts here */
+
+footer{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1.2fr;
+  grid-column-gap: 2em;
+  padding: 100px 0 100px 60px;
+}
+.footer-header h3{
+  width: 192px;
+  height: 81px;
+  text-align: left;
+  font: normal normal bold 22px/28px Helvetica;
+  color: #354463;
+}
+.foot-contact-head {
+  width: 95px;
+  height: 14px;
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+}
+.foot-contact-address{
+  padding-top: 10px;
+  width: 126px;
+  height: 74px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+}
+.foot-link-head{
+  height: 14px;
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+}
+.foot-link-items{
+  padding-top: 10px;
+  width: 80px;
+  height: 74px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+}
+.footer-follow-us{
+  height: 14px;
+  text-align: left;
+  font: normal normal normal 14px/17px Helvetica;
+}
+.footer-follow-items{
+  padding-top: 10px;
+  width: 80px;
+  height: 74px;
+  text-align: left;
+  font: normal normal 300 14px/20px Helvetica;
+  color: #354463;
+}
+/* footer end here */
+
+/*------------------desktop view end here---------------------------*/
+
+/*------------------tablet view start from here-------------------*/
+@media screen and (max-width: 770px) {
+  /*navigation section */
+
+  .logo{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 0.8rem;
+
+  }
+  .nav-items{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 4em;
+    font-size: 0.9em;
+    padding-top: 0;
+  }
+  .donate{
+    grid-column: 3;
+    grid-row:1/3;
+    align-self: center;
+  }
+
+  .nav-items a {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .donate button{
+    top: 0;
+  }
+
+
+  /*Climate change section starts here */
+
+  .climate-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images_home/annie-spratt-135307-unsplash1.png');
+  }
+  .climate-container{
+    grid-row-gap: 4em;
+    width: 200px;
+    height: 50px;
+  }
+
+  .climate-quote {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    /*padding:0;
+    align-self: center;
+    height: auto;*/
+  }
+
+  .climate-section .climate-container .climate-quote {
+    width: 500px;
+    height: auto;
+  }
+
+  .climate-quote-1{
+    text-align: left;
+    padding-top: 20px;;
+    padding-left: 30px;;
+    font-size: 2em;
+  }
+  .climate-issue{
+    bottom: 295px;
+    left: 30px;
+
+  }
+  .climate-tag{
+    font-size: 50px;
+    right: 100px;
+   }
+
+  /* climate section ends here */
+
+  /* take action starts here */
+  .take-action{
+    padding: 2em;
+  }
+
+  .take-action{
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+  }
+
+  .take-action-item{
+    padding: 20px 0 28px 40px;
+  }
+
+  .take-action-tag {
+    bottom: 330px;
+    left: 70%;
+  }
+
+  /*take action tag ends here */
+
+  /*mission starts here */
+
+  .mission{
+    padding:4em;
+  }
+  .mission-heading .mission-text {
+    width: 700px;
+    font-size: 30px;
+  }
+
+  .mission-content{
+    grid-template-columns: 1fr;
+    grid-row-gap: 4em;
+  }
+  .mission-content-item{
+    width: 620px;
+    height: 328px;
+  }
+
+  .mission-content-text{
+    position: relative;
+    width: 250px;
+    bottom: 200px;
+    left: 380px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  /* mission ends here */
+
+  /* Did you know starts here */
+
+
+  .did-you-know{
+    background-image: url('./images_home/Did you know background1.png');
+    height:1000px;
+    padding: 0;
+    grid-column-gap: 0;
+  }
+  .did-you-know-tag{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+
+  .box{
+    position: relative;
+    left: -150px;
+    bottom: -20px;
+  }
+
+  .did-you-know-content-text{
+    width: 380px;
+    height: auto;
+    position: relative;
+    right: 150px;
+  }
+
+  .did-you-know-content-text h2{
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+  }
+
+  .did-you-know-content-text p{
+    width: 336px;
+    height: 68px;
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+    padding-top: 0;
+  }
+
+  .did-you-know-social-icon{
+    position: relative;
+    bottom: 120px;
+  }
+
+  /* did you know  ends here */
+
+
+  /* stories start here */
+  .stories{
+    padding: 3em;
+    grid-template-columns: 0;
+    height: 900px;
+
+  }
+
+  .stories-content{
+    height: 320px;
+    left: 120px;
+    top: 50%;
+  }
+
+  .stories-content-text h2{
+    font-size: 20px;
+  }
+
+  .stories-content button{
+    top: 300px;
+  }
+
+  /*stories end here */
+
+  /*events syart here */
+
+
+  .events{
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    grid-row-gap: 7em;
+
+  }
+  .events-heading{
+    padding-top: 50px;
+  }
+
+  .image_event{
+    width: 288px;
+    height: 288px;
+  }
+
+  .event-head-item{
+    height: auto;
+    font-size: 28px;
+    padding-top: 30px;
+  }
+
+  .event-content-item{
+    width: auto;
+    height: auto;
+  }
+
+  .events-content{
+    grid-column-gap: 20px;
+  }
+
+  .event-latest-news {
+    grid-column-gap: 20px;
+  }
+  .event-head-item-2{
+    height: auto;
+    font-size: 28px;
+    padding-top: 30px;
+  }
+
+  .event-latest-news-content button{
+    position: relative;
+    top: 30px;
+  }
+  /* events end here */
+
+  /* subscribe start here */
+
+  .subscribe{
+    padding: 2em 0 3em 2em;
+    grid-template-columns: 1fr;
+  }
+  .subscribe-tag h2{
+    font-size: 25px;
+  }
+  .subscribe-form input{
+    width: 500px;
+  }
+  /* subscribe end here */
+
+  /* footer starts here */
+
+  footer{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0em;
+    padding: 50px 0 0px 60px;
+  }
+
+  .foot-contact-head {
+
+    font: normal normal normal 11px/13px Helvetica;
+  }
+  .foot-link-head{
+    width: 95px;
+    font: normal normal normal 11px/13px Helvetica;
+  }
+
+  .footer-follow-us{
+    width: 95px;
+    font: normal normal normal 11px/13px Helvetica;
+  }
+  .footer-follow-items{
+    padding-top: 10px;
+    width: 80px;
+    height: 74px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    color: #354463;
+  }
+  .footer-tag h2{
+    position: relative;
+    left: 225px;
+  }
+}
+/* Tablet view ends here */
+
+/* Mobile view starts here */
+
+@media screen and (max-width: 360px) {
+  /* navigation starts here */
+  nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+  }
+  .logo{
+    padding-left: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    font-size: 1rem;
+  }
+  .nav-items{
+    display: grid;
+    grid-row-gap: 1em;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    padding-left: 0em;
+    font-size: 0.9em;
+    padding-top: 20px;
+
+  }
+  .donate{
+    grid-column: 1/3;
+    grid-row:2;
+    align-self: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .nav-items a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .donate button{
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  /* navigation ends here */
+
+  /* climate starts here */
+  .climate-section{
+    background-position: right;
+    background-image: url('./images_home/annie-spratt-135307-unsplash1.png');
+  }
+  .climate-container{
+    grid-row-gap: 4em;
+    width: 100px;
+    height: 50px;
+    transform: translateX(-90px);
+  }
+
+  .climate-quote {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .climate-section .climate-container .climate-quote {
+    width: 300px;
+    height: auto;
+    text-align: center;
+  }
+
+  .climate-quote-1{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 1em;
+    width: auto;
+  }
+  .climate-issue{
+    left: 0;
+    bottom: 315px;
+    margin: auto;
+  }
+  .climate-tag{
+    font-size: 50px;
+    right: 50px;
+    top: -50px;
+   }
+   .climate-quote a{
+     padding-top: 0;
+     padding-left: 0;
+     font-size: 18px;
+   }
+
+   /*climate ends here */
+
+   /* take action starts here */
+   .take-action{
+     padding: 20px 10px 20px 10px;
+   }
+
+   .take-action{
+     grid-template-columns: 1fr 1fr;
+     width: auto;
+
+   }
+
+   .take-action-item{
+     padding: 0;
+     font-size: 15px;
+     width: 144px;
+     height: 62px;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     margin: auto;
+   }
+
+   .take-action-tag {
+     bottom: 310px;
+     left: 70%;
+   }
+   .take-action-item h3 {
+     font-size: 20px;
+   }
+
+   /* take action ends here */
+
+   /* mission starts here */
+
+   .mission{
+     padding: 0;
+     width: 100%;
+     padding-bottom: 20px;
+   }
+
+   .mission .what-we-do{
+     width: 160px;
+     height: 40px;
+     text-align: center;
+     padding-top: 10px;
+     margin: auto 80px;
+     transform: translateY(30px);
+   }
+
+   .mission-heading .mission-text {
+     width: 290px;
+     height: 134px;
+     font-size: 20px;
+     text-align: center;
+     margin: auto;
+   }
+
+   .mission-content{
+     grid-template-columns: .5fr;
+     grid-row-gap: 4em;
+   }
+
+   .mission-content-item{
+     width: 280px;
+     height: 475px;
+     position: relative;
+     left: 40px;
+   }
+
+   .mission-content-item img{
+     width: 218px;
+     height: 176px;
+   }
+
+   .mission-content-text{
+     width: 242px;
+     height: 94px;
+     font-size: 16px;
+     position: relative;
+     bottom: 20px;
+     left: 0;
+     text-align: center;
+     margin: auto;
+   }
+
+
+   .mission-button{
+     background: #C1F7D5 0% 0% no-repeat padding-box;
+     border-radius: 100px;
+     width: 160px;
+     height: 48px;
+     position: relative;
+     top: 120px;
+     left: 70px;
+   }
+   .mission-button a{
+     text-decoration: none;
+   }
+
+   /*mission ends here */
+
+   /*did you know starts here */
+
+   .did-you-know{
+     background-image: url('./images_home/Did you know background2.png');
+     background-position: center;
+     height: auto;
+     padding: 0;
+     grid-column-gap: 0;
+     grid-template-columns: 0;
+   }
+   .did-you-know-tag{
+     font-size: 30px;
+     padding-left: 50px;
+     padding-bottom: 0;
+     padding-top: 50px;
+   }
+
+   .box{
+     position: relative;
+     left: 120px;
+     top: -100px;
+   }
+
+   .did-you-know-content{
+     grid-row-gap: 0;
+   }
+   .did-you-know-content-text{
+     width: 330px;
+     height: auto;
+     position: relative;
+     bottom: 100px;
+     left: 15px;
+   }
+
+   .did-you-know-content-text h2{
+     font-size: 30px;
+     left: 30px;
+     bottom: 0;
+   }
+
+   .did-you-know-content-text p{
+     left: 10px;
+     bottom: 0px;
+     text-align: left;
+   }
+
+   .did-you-know-social-icon{
+     position: relative;
+     bottom: 200px;
+     left: 160px;
+     width: auto;
+     height: auto;
+   }
+   /* did you know ends here */
+
+   /* stories start from here */
+
+   .stories{
+     padding: 3em;
+     grid-template-columns: 0;
+     height: 900px;
+   }
+
+   .stories-image img{
+     width: 312px;
+     height: 312px;
+     position: relative;
+     left: -25px;
+   }
+   .stories-image-tags{
+     top: -330px;
+     right: 0px;
+     left: 40px;
+   }
+
+   .stories-content{
+     width: 312px;
+     height: 312px;
+     left: -25px;
+     top: 40%;
+   }
+
+   .stories-content-text h2{
+     width: 248px;
+     height: 203px;
+     text-align: center;
+     font-size: 20px;
+   }
+
+   .stories-content-text{
+     width: 248px;
+     height: 18px;
+     text-align: center;
+   }
+
+   .stories-content button{
+     top: 300px;
+     left: 25%;
+   }
+
+
+   /* storeies end here */
+
+
+   /* Event start here */
+
+   .event-heading{
+     font-size: 20px;
+     padding: 10px 20px 10px 20px
+   }
+   .events-content{
+
+     grid-template-columns: 1fr;
+     grid-column-gap: 50px;
+    }
+    .event-tag{
+
+      position: relative;
+      left: 20%;
+      bottom: 73%;
+    }
+
+    .event-tag-news{
+
+      position: relative;
+      bottom: 0;
+    }
+
+
+    .image_event{
+      width: 288px;
+      height: 288px;
+      margin: 0;
+      position: relative;
+      left: 35px;
+    }
+
+    .event-head-item{
+      text-align: center;
+     }
+
+    .event-content-item{
+      text-align: center;
+      position: relative;
+      left: 25px;
+      width: 300px;
+    }
+    .events-content{
+      grid-column-gap: 20px;
+    }
+    .button-read-more-event{
+      position: relative;
+      top: 60px;
+      left: 100px;
+    }
+
+    .event-latest-news {
+      grid-template-columns:  1fr;
+      grid-column-gap: 20px;
+    }
+    .event-head-item-2{
+      height: auto;
+      font-size: 28px;
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .event-latest-news-content button{
+      position: relative;
+      top: 350px;
+      left: 90px;
+    }
+
+     /* event tag ends here */
+
+     /*subscribe starts here */
+
+
+    .subscribe{
+      padding: 2em 0 3em 2e;
+      grid-template-columns: .5fr;
+      height: 216px;
+    }
+    .subscribe-tag h2{
+      font-size: 20px;
+      width: 100%;
+      height: auto;
+    }
+    .subscribe-form input{
+      width: 250px;
+    }
+    .subscribe-form button{
+      transform: translatey(10px);
+      float: right;
+    }
+     /* subscribe form ends here */
+
+     /* footer starts here */
+    footer{
+      grid-template-columns: .5fr .5fr;
+      grid-column-gap: 0;
+      grid-row-gap: 5em;
+      padding: 50px 0 0px 60px;
+      height: 500px;
+    }
+
+    .foot-contact-head {
+      font: normal normal normal 11px/13px Helvetica;
+    }
+    .foot-link-head{
+      width: 95px;
+      font: normal normal normal 11px/13px Helvetica;
+    }
+
+    .footer-follow-us{
+      width: 95px;
+      font: normal normal normal 11px/13px Helvetica;
+    }
+
+    .footer-follow-items{
+      padding-top: 10px;
+      width: 80px;
+      height: 74px;
+      text-align: left;
+      font: normal normal 300 14px/20px Helvetica;
+      color: #354463;
+      padding-bottom: 30px;
+    }
+    .footer-tag h2{
+      position: relative;
+      left: 185px;
+      top: -20px;
+      font-size: 20px;
+    }
+    .foot-contact-address{
+      font-size: 10px;
+    }
+     /* footer section  ends here */
+
+     /* Mobile Section ends here */
+}
